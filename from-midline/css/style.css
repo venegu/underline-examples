@@ -1,6 +1,7 @@
 /*** Body Element ***/
 body {
   background-color: lightseagreen;
+  overflow: hidden;
 }
 
 /*** Type ***/
