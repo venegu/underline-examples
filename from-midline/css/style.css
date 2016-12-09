@@ -1,7 +1,11 @@
 /*** Body Element ***/
+html, body {
+  overflow: hidden;
+}
+
 body {
   background-color: lightseagreen;
-  overflow: hidden;
+  position: relative;
 }
 
 /*** Type ***/
