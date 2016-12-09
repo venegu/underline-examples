@@ -1,0 +1,14 @@
+/*** Body Element ***/
+body {
+  background-color: lightseagreen;
+}
+
+/*** Type ***/
+a {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 20vh;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 23px;
+}
