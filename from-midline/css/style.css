@@ -12,3 +12,11 @@ a {
   font-weight: 500;
   line-height: 23px;
 }
+
+/*** Alignment ***/
+div {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
