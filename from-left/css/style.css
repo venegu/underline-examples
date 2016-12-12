@@ -26,3 +26,27 @@ div {
   align-items: center;
   justify-content: center;
 }
+
+/*** Link Underline ***/
+a, a:hover, a:focus {
+  text-decoration: none;
+  position: relative;
+  color: white;
+}
+
+a:after {
+  content: '';
+  position: absolute;
+  bottom: -6.8vh;
+  left: 0;
+  width: 0%;
+  border-bottom: 3px solid white;
+  opacity:0.1;
+  transition: 0.5s ease-in-out 0.2s,
+              opacity 0.8s ease-in-out 0.1s;
+}
+
+a:hover:after {
+  width: 100%;
+  opacity:1;
+}
